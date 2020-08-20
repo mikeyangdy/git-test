@@ -9,6 +9,10 @@ public class Main{
         for(int i=0;i<20;i++){
             System.out.println(i);
         }
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+        System.out.println(c);
         System.out.println(20);
     }
 }
