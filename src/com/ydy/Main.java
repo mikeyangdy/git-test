@@ -2,19 +2,12 @@
 
 public class Main{
     public static void main(String[] args) {
-        System.out.println(1);
-        System.out.println(12);
-        System.out.println(13);
-        System.out.println(14);
-        System.out.println(15);
+        Main.print();
+    }
 
-
-        System.out.println(1111111);
-
-
-
-        System.out.println(233);
-
-        System.out.println(777777777777);
+    public static void print(){
+        for(int i=0;i<10;i++){
+            System.out.println(i);
+        }
     }
 }
